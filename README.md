@@ -10,7 +10,7 @@ measured with an STM, the others were simulated based on experimental findings.
 
 ### STM surface scans
 
-<img src="stm_scans/6.26_percent_defective/overlap_stitch.png" alt="Stitched STM surface scan" align="right" height="340"/>
+<img src="stm_scans/6.26_percent_defective/overlap_stitch.png" alt="Stitched STM surface scan" align="right" height="370"/>
 
 The fabricated H-Si(100)-2×1 surfaces span a total of 830 × 652 and 740 × 1090 hydrogen sites, respectively, of which
 8.57% and 6.26% are defective.
