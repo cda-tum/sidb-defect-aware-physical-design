@@ -1,7 +1,7 @@
 # Atomic Defect-Aware Physical Design of Silicon Dangling Bond Logic on the H-Si(100)-2×1 Surface
 
 This repository provides supplementary data for the paper *Atomic Defect-Aware Physical Design of Silicon Dangling Bond
-Logic on the H-Si(100)-2×1 Surface* by M. Walter, J. Croshaw, S. S. H. Ng, K. Walus, R. Wolkow, and R. Wille.
+Logic on the H-Si(100)-2×1 Surface* by M. Walter, J. Croshaw, S. S. H. Ng, K. Walus, R. Wolkow, and R. Wille in DATE 2024.
 
 ## H-Si(100)-2×1 Surfaces
 
@@ -16,7 +16,7 @@ The fabricated H-Si(100)-2×1 surfaces span a total of 830 × 652 and 740 × 109
 8.57% and 6.26% are defective.
 
 The respective STM surface scan files can be found in the `stm_scans` folder. The `.xml` files can be parsed by both
-[*SiQAD*](https://github.com/siqad/siqad) and [*fiction*](https://github.com/marcelwa/fiction).
+[*SiQAD*](https://github.com/siqad/siqad) and [*fiction*](https://github.com/cda-tum/fiction).
 
 #### Fabrication process
 
@@ -39,18 +39,18 @@ The surfaces have been randomly generated with
 the [`generate_defective_surface.py`](experiments/generate_defective_surface.py) Python script.
 
 The respectively resulting surface files can be found in the `simulated_surfaces` folder. The `.txt` files represent
-Python arrays and can be parsed by [*fiction*](https://github.com/marcelwa/fiction).
+Python arrays and can be parsed by [*fiction*](https://github.com/cda-tum/fiction).
 
 ## Experimental Evaluation: Atomic Defect-Aware Physical Design
 
 The `experiments` folder contains all data obtained by the physical design process laid out in the paper as well as a
 C++ code file that implements the algorithm to reproduce said data via the FCN framework [
-*fiction*](https://github.com/marcelwa/fiction).
+*fiction*](https://github.com/cda-tum/fiction).
 
 ### Source code: `defect_aware_physical_design.cpp`
 
 The C++ code that implements the physical design algorithm presented in the paper. It utilizes the FCN framework [
-*fiction*](https://github.com/marcelwa/fiction). To compile it, place the file in *fiction*'s `experiments` folder and
+*fiction*](https://github.com/cda-tum/fiction). To compile it, place the file in *fiction*'s `experiments` folder and
 call CMake with the `-DFICTION_EXPERIMENTS=ON` flag.
 
 To learn more, see *fiction*'s
@@ -76,5 +76,5 @@ and
 2018 ([IEEE Xplore](https://ieeexplore.ieee.org/document/8351001)).
 
 These networks are established benchmarks in the domain of FCN technologies and
-are [available as Verilog files](https://github.com/marcelwa/fiction/tree/main/benchmarks) in
+are [available as Verilog files](https://github.com/cda-tum/fiction/tree/main/benchmarks) in
 *fiction*'s experiment sandbox.
